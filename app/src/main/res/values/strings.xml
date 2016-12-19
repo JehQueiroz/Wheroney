@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AppWheroney</string>
+    <string name="Login">Login</string>
+    <string name="Usuario">Usuário:</string>
+    <string name="Senha">Senha:</string>
+    <string name="btLogin">LOGIN</string>
+    <string name="btCadastrar">CADASTRAR</string>
+    <string name="Nome">Digite seu nome</string>
+    <string name="senha">Digite sua senha</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="nome">Nome:</string>
+    <string name="cdNome">Digite seu nome</string>
+    <string name="Email">Email:</string>
+    <string name="email">Digite seu email</string>
+    <string name="cdSenha">Senha:</string>
+    <string name="cdsenha">Digite sua senha</string>
+    <string name="btSalvar">SALVAR</string>
+    <string name="btCancelar">CANCELAR</string>
+    <string name="Saque">Saque</string>
+    <string name="sqquantia">Quantia:</string>
+    <string name="quantia">Digite o valor</string>
+    <string name="Data">Data:</string>
+    <string name="data">Digite a data do Saque</string>
+    <string name="categoria">Categoria:</string>
+    <string name="descricao">Descrição:</string>
+    <string name="sqSalvar">SALVAR</string>
+    <string name="sqCancelar">CANCELAR</string>
+    <string name="sqdescricao">Digite a descrição</string>
+    <string name="Deposito">Depósito</string>
+    <string name="dpquantia">Quantia:</string>
+    <string name="dpdata">Digite a data</string>
+    <string name="tv_dpdata">Data:</string>
+    <string name="dpcategoria">Categoria:</string>
+    <string name="sqdpdescricao">Digite a descrição</string>
+    <string name="dpdescricao">Descrição:</string>
+    <string name="dpSalvar">SALVAR</string>
+    <string name="dpCancelar">CANCELAR</string>
+    <string name="Categoria">Categoria</string>
+    <string name="tvCategoria">Categoria:</string>
+    <string name="nmCategoria">Nome:</string>
+    <string name="edCategoria">Digite a categoria</string>
+    <string name="btAdicionar">ADICIONAR</string>
+    <string name="btcancelar">CANCELAR</string>
+    <string name="Wheroney">Bem-Vindo !!!</string>
+    <string name="bt_deposito">DEPÓSITO</string>
+    <string name="bt_saque">SAQUE</string>
+    <string name="Lancamentos">Lançamentos</string>
+    <string name="Lancamento">LANÇAMENTOS</string>
+    <string name="btCategoria">CATEGORIA</string>
+    <string-array name="categorias">
+        <item> Transporte </item>
+        <item> Salário </item>
+    </string-array>
+</resources>

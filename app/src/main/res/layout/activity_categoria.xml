@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/azul"
+    tools:context="br.edu.iff.pooa20161.appwheroney.Categoria">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Categoria"
+        android:textSize="43sp"
+        android:gravity="center"
+        android:textColor="@color/branco"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:id="@+id/tv_categoria"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nmCategoria"
+        android:textSize="25sp"
+        android:textColor="@color/branco"
+        android:textStyle="normal|bold"
+        android:fontFamily="monospace"
+        android:id="@+id/tv_nmcategoria"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_categoria"
+        android:hint="@string/edCategoria"
+        android:ems="10"/>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btAdicionar"
+        android:textSize="20sp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        android:id="@+id/btAdicionar"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btcancelar"
+        android:id="@+id/btcancelar"
+        android:textSize="20sp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        android:layout_alignTop="@+id/btAdicionar"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_marginEnd="40dp" />
+</RelativeLayout>

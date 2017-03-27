@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/azul"
-    tools:context="br.edu.iff.pooa20161.appwheroney.Lancamentos">
+    tools:context=".Activity.Lancamentos">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

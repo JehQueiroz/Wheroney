@@ -8,19 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".CadastrarConta" />
-        <activity android:name=".Saque" />
-        <activity android:name=".Deposito" />
-        <activity android:name=".Wheroney" />
-        <activity android:name=".Categoria" />
-        <activity android:name=".Lancamentos"></activity>
+        <activity android:name=".Activity.CadastrarConta" />
+        <activity android:name=".Activity.Saque" />
+        <activity android:name=".Activity.Deposito" />
+        <activity android:name=".Activity.Wheroney" />
+        <activity android:name=".Activity.Categoria" />
+        <activity android:name=".Activity.Lancamentos" />
+        <activity
+            android:name=".Activity.ListaCategoria"
+            android:label="@string/title_activity_lista_categoria" />
+        <activity
+            android:name=".Activity.ListaDeposito"
+            android:label="@string/title_activity_lista_deposito" />
+        <activity
+            android:name=".Activity.ListaSaque"
+            android:label="@string/title_activity_lista_saque"></activity>
     </application>
 
 </manifest>

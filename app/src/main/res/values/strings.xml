@@ -51,4 +51,9 @@
         <item> Transporte </item>
         <item> Salário </item>
     </string-array>
+    <string name="title_activity_lista_saque1">ListaSaque1</string>
+    <string name="title_activity_lista_categorias">ListaCategorias</string>
+    <string name="title_activity_lista_categoria">ListaCategoria</string>
+    <string name="title_activity_lista_deposito">ListaDeposito</string>
+    <string name="title_activity_lista_saque">ListaSaque</string>
 </resources>
